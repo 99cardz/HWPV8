@@ -4,7 +4,7 @@
 
 Um das Signal am TXD-Ausgang des Arduinos zu lesen, verbinden wir das Oszi damit und übertragen da
 Wir lesen den TXD Ausgang des Arduinos mit dem Oszi aus und Speichern dies als csv Datei ab.
-Diese werten wir mit einem [Python Skript](https://github.com/99cardz/HWPV8/rs232.ipynb) aus, wobei wir die Länge eines Packets durch systematisches Ausprobieren herausgefunden haben.
+Diese werten wir mit einem [Python Skript](https://github.com/99cardz/HWPV8/blob/main/rs232.ipynb) aus, wobei wir die Länge eines Packets durch systematisches Ausprobieren herausgefunden haben.
 Ebenfalls wurden die Daten eines Packets mit der gleichen Methode Analysiert.
 
 <img width="100%" src="rs232.jpg">
