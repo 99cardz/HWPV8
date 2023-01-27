@@ -17,11 +17,12 @@ Es handelt sich um das RS-232 Protokoll, in der folgenden Konfiguration:
 -   Kein Paritätsbit
 
 Der Übertragene Satz lautete:
+
 "Java ist das Leidvollste was der Informatik seit MS-DOS wiederfahren ist. Alan Kay"
 
 ## Aufgabe 2
 
 Jetzt Verbinden wir den Logic Analyzer mit den Pins D2 und D3 des Arduinos und lassen uns das gesendete Signal in Pulse View anzeigen.
-Diesmal handelt es sich um das I2C Protokoll. Auf D3 werden die Daten übertragen, während auf D2 das Taktsignal überträgt. Gemessen wurde eine 
+Diesmal handelt es sich um das I2C Protokoll. Auf D3 werden die Daten übertragen, während auf D2 das Taktsignal überträgt. Bei einem Symbol alle 40 us ergibt sich eine Baudrate von 25 kBd/s.
 
 <img width="100%" src="i2c.jpg">
